@@ -104,7 +104,7 @@ h2 {
 
 .lightGreyBox {
   background-color: #f8f8f8;
-  padding: 40px;
+  
   text-align: justify;
 }
 
@@ -184,12 +184,13 @@ h2 {
   display: grid;
   grid-template-columns: 60% 40%;
   padding-top: 200px;
-  padding-top: 200px;
+
+  grid-column-gap: 50px;
 }
 
 .lightGreyBox {
   background-color: #f8f8f8;
-  padding: 40px;
+  padding: 30px;
   text-align: center;
 }
 
@@ -327,6 +328,14 @@ h2 {
 
   .differentEnergiesGrid {
     grid-template-columns: repeat(1, 1fr);
+  }
+  .lightGreyBox{
+    width: 100%;
+  }
+
+  .firstGridImageContainer img{
+    width: 100%;
+    height: 100%;
   }
 
   .secondGrid {
